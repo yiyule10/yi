@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,tiktok*
 
@@ -19,4 +20,4 @@ USER-AGENT,tiktok*
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.appsflyer.com
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.appsflyer.com,*.ipstatp.com,*.tiktokcdn.com,*.ibytedtos.com
