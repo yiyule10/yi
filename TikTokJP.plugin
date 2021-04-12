@@ -1,15 +1,16 @@
 [Rule]
-USER-AGENT,TikTok*
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-KEYWORD,-tiktokcdn-com
+USER-AGENT,tiktok*
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
@@ -18,4 +19,4 @@ DOMAIN-KEYWORD,-tiktokcdn-com
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = %APPEND% *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.appsflyer.com
