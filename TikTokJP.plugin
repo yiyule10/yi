@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,tiktok*
+USER-AGENT,mozilla*
 
 [URL Rewrite]
 #tiktok解锁直播区域限制
